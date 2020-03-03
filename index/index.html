@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script  type="text/javascript">
+		
+		document.addEventListener("mouse ove",function(e){
+			  var body = document.querySelector('body');
+			  var bubbles = document.creatElement("span");
+			  var x = e.offsetX;
+			  var y = e.offsetY;
+			  bubbles.style.left = x+'px';
+			  bubbles.style.top = y+'px';
+			  body.appendChild(bubbles);
+		})
+	</script>
+</body>
+</html>

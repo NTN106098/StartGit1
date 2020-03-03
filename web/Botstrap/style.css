@@ -1,0 +1,27 @@
+* {
+    outline: none !important;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    z-index: 1000000;
+}
+
+p {
+    font-size: 1.15rem;
+}
+.navbar {
+    background: transparent !important;
+    transition: 0.5s;
+}
+.navbar .srolled {
+    background: #000 !important;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color:#000;
+    background: #fff;
+}
